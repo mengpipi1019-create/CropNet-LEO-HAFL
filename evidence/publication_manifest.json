@@ -4516,7 +4516,7 @@
     "NOTICE.md": "21868c96eaefa4ed7591779adb8d2d7343129c37e6f98ca3bd614c5a9889aebd",
     "pause_mmst_compare.cmd": "06e3fea6ac593bfd2196a410c471e1c3df034535987fd29b4cbb21810a7329ca",
     "plot_mmst_compare.cmd": "c013e606650699540e8d11a438b76b9c8574397154911cb19c7f1d4140fde3f4",
-    "README.md": "6d1208240bcc6111d57e67302c0ded926ad18d792ab82ef14e092d1a872a41cc",
+    "README.md": "1121427b139103d6ad99d1c66b74050c2c6c184aaed56352f8252469230ae9be",
     "requirements-plots.txt": "133296c4f2402c60ce2f2460a93c8afdfc038dc1b83b9f6449af543d9ba98b6d",
     "requirements.txt": "d2224c3a533106fcdc2c7af6dd75f7b3048ab41460c0036a5667386b6e1d8db8",
     "research/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -4588,6 +4588,8 @@
     "tests/test_mmst_compare.py": "f306c28fbf80988022b6452d43d5ef30fe7dd09a90c4a3a40c33bfa9941faf12",
     "tests/test_mmst_compare_unattended.py": "3405659f40db7aa6c5ed2ae25f5067bb32b06735f40a2421463711feab535cca",
     "tests/test_portable.py": "8782dddf9333274ce847286af6965b734e655bb1f5a1f385fdbfc06699ceebcc",
-    "本地新三算法对比运行说明.md": "0f57b4e1e3600be3c1ac77841ca136b053bb91a20e7bdddb122dbe150b7eada4"
-  }
+    "本地新三算法对比运行说明.md": "0f57b4e1e3600be3c1ac77841ca136b053bb91a20e7bdddb122dbe150b7eada4",
+    "docs/CODE_GUIDE.md": "379eeafe37e65de69721678c0b764e3afca26f02b7065e92b6382e664eaf0c3d"
+  },
+  "documentation_updated_on": "2026-10-09"
 }
