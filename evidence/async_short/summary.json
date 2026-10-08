@@ -1,0 +1,171 @@
+{
+  "decision": {
+    "short_screen_passed": true,
+    "checks": {
+      "cycle_1_mean_not_worse": true,
+      "cycle_1_range_not_worse": true,
+      "cycle_2_mean_not_worse": true,
+      "cycle_2_range_not_worse": true,
+      "signal_at_all_arrivals": true,
+      "final_train_not_worse": true,
+      "final_validation_not_worse": true,
+      "same_phase_8_vs_4_within_limit": true,
+      "same_phase_7_vs_3_within_limit": true
+    },
+    "failed_checks": [],
+    "recommendation": "eligible_for_exploratory_fixed_budget_comparison",
+    "not_a_convergence_certificate": true
+  },
+  "cycles": {
+    "original": [
+      {
+        "mean": 5.484213430123213,
+        "range": 1.433197608730219,
+        "peak": 6.520167522077877,
+        "endpoint": 6.520167522077877
+      },
+      {
+        "mean": 5.088164571380018,
+        "range": 0.9040257063438171,
+        "peak": 5.758262279910879,
+        "endpoint": 5.758262279910879
+      }
+    ],
+    "balanced": [
+      {
+        "mean": 5.1876266205624795,
+        "range": 1.0448121621528763,
+        "peak": 5.929829068474494,
+        "endpoint": 5.929829068474494
+      },
+      {
+        "mean": 4.724650566088779,
+        "range": 0.6267751740635736,
+        "peak": 5.132962482268876,
+        "endpoint": 5.132962482268876
+      }
+    ]
+  },
+  "audit": {
+    "passed": true,
+    "source_and_artifact_hashes_verified": true,
+    "per_arm_arrivals": 8,
+    "county_predictions_recomputed": 1596,
+    "equal_budgets": {
+      "accepted": 356,
+      "processed": 356,
+      "started_delta": {
+        "IA": 2,
+        "IL": 2,
+        "LA": 2,
+        "MS": 2
+      },
+      "done_delta": {
+        "IA": 2,
+        "IL": 2,
+        "LA": 2,
+        "MS": 2
+      },
+      "new_client_optimizer_steps": 40,
+      "pending_jobs": 3,
+      "processed_not_yet_accepted": 117
+    },
+    "original_first_three_arrivals_match_prior_replay": true,
+    "final_checkpoint_predictions_exact": true,
+    "test_2022_used": false
+  },
+  "test_2022_used": false,
+  "formal_training_launched": false,
+  "final": {
+    "original": {
+      "budget": {
+        "accepted": 356,
+        "processed": 356,
+        "started_delta": {
+          "IA": 2,
+          "IL": 2,
+          "LA": 2,
+          "MS": 2
+        },
+        "done_delta": {
+          "IA": 2,
+          "IL": 2,
+          "LA": 2,
+          "MS": 2
+        },
+        "new_client_optimizer_steps": 40,
+        "pending_jobs": 3,
+        "processed_not_yet_accepted": 117
+      },
+      "train": {
+        "n": 178,
+        "rmse": 5.806384354580752,
+        "r2_author_corr_squared": 0.6905006976087009,
+        "pearson_corr": 0.8309637161806169,
+        "r2_coefficient_of_determination": 0.5906266016093332,
+        "prediction_std_ratio": 0.6422981551675789,
+        "prediction_range": [
+          42.74237186572016,
+          62.44934129750074
+        ]
+      },
+      "validation": {
+        "n": 44,
+        "rmse": 5.758262279910879,
+        "r2_author_corr_squared": 0.7819638324424101,
+        "pearson_corr": 0.884287188894202,
+        "r2_coefficient_of_determination": 0.6571060693586928,
+        "prediction_std_ratio": 0.6433890386111101,
+        "prediction_range": [
+          42.93589501453277,
+          61.14459862032272
+        ]
+      }
+    },
+    "balanced": {
+      "budget": {
+        "accepted": 356,
+        "processed": 356,
+        "started_delta": {
+          "IA": 2,
+          "IL": 2,
+          "LA": 2,
+          "MS": 2
+        },
+        "done_delta": {
+          "IA": 2,
+          "IL": 2,
+          "LA": 2,
+          "MS": 2
+        },
+        "new_client_optimizer_steps": 40,
+        "pending_jobs": 3,
+        "processed_not_yet_accepted": 117
+      },
+      "train": {
+        "n": 178,
+        "rmse": 5.408354759804945,
+        "r2_author_corr_squared": 0.692239174961424,
+        "pearson_corr": 0.8320091195181841,
+        "r2_coefficient_of_determination": 0.6448282627269362,
+        "prediction_std_ratio": 0.7287354889214963,
+        "prediction_range": [
+          41.42368903843593,
+          63.58938590726358
+        ]
+      },
+      "validation": {
+        "n": 44,
+        "rmse": 5.132962482268876,
+        "r2_author_corr_squared": 0.7924163441561239,
+        "pearson_corr": 0.8901777036952363,
+        "r2_coefficient_of_determination": 0.7275335125424138,
+        "prediction_std_ratio": 0.7348939401476684,
+        "prediction_range": [
+          41.53540170579398,
+          62.42993753563255
+        ]
+      }
+    }
+  }
+}

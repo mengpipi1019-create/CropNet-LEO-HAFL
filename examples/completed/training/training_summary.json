@@ -1,0 +1,164 @@
+[
+  {
+    "method": "centralized",
+    "seed": 10,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "899c0fc53df5eefe32a62ff7cfe1da648fba188a2274e39495f5894dc91d1490",
+    "checkpoint": "centralized_seed10\\final.pt",
+    "checkpoint_sha256": "134b92255b178160f3baea7f584a7476cce41f5109f520b6c795e3c6edb008d8",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 0.04094194252917984,
+      "r2_author_corr_squared": 0.999980817591731,
+      "pearson_corr": 0.9999904087498694,
+      "r2_coefficient_of_determination": 0.9999803263809367
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "fedavg",
+    "seed": 10,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "899c0fc53df5eefe32a62ff7cfe1da648fba188a2274e39495f5894dc91d1490",
+    "checkpoint": "fedavg_seed10\\final.pt",
+    "checkpoint_sha256": "3324c05c12a29c1385e4059e69b0bc6d407a891471d7cbe7e9202ae40590d538",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 3.4541367058677284,
+      "r2_author_corr_squared": 0.8606264206433608,
+      "pearson_corr": 0.9276995314450476,
+      "r2_coefficient_of_determination": 0.8599682833125413
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "hierarchical_async",
+    "seed": 10,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "899c0fc53df5eefe32a62ff7cfe1da648fba188a2274e39495f5894dc91d1490",
+    "checkpoint": "hierarchical_async_seed10\\final.pt",
+    "checkpoint_sha256": "f55124a57040e3a9c0385c8af0b0394e07ba72af08a691e8672a649ef8d24c25",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 3.99278813626975,
+      "r2_author_corr_squared": 0.8141480361996144,
+      "pearson_corr": 0.9023015217761823,
+      "r2_coefficient_of_determination": 0.812888749089671
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "centralized",
+    "seed": 20,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "47875bab9c9a5106f68a9d5089d3382be4eb7c653cd3766ee11a27d8309f54e2",
+    "checkpoint": "centralized_seed20\\final.pt",
+    "checkpoint_sha256": "df353cf824bc32bedec73212a27957d80ae04f49e5a3db2ae5f672503c116919",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 0.0509811820739383,
+      "r2_author_corr_squared": 0.9999724176169458,
+      "pearson_corr": 0.9999862087133731,
+      "r2_coefficient_of_determination": 0.9999694952709859
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "fedavg",
+    "seed": 20,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "47875bab9c9a5106f68a9d5089d3382be4eb7c653cd3766ee11a27d8309f54e2",
+    "checkpoint": "fedavg_seed20\\final.pt",
+    "checkpoint_sha256": "7273777c88477135ee2a9e0566a452544a1c2e6c8db401a47c571e6fcfb9ed18",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 3.571292310683807,
+      "r2_author_corr_squared": 0.8507103950928288,
+      "pearson_corr": 0.9223396310973679,
+      "r2_coefficient_of_determination": 0.8503081462184079
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "hierarchical_async",
+    "seed": 20,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "47875bab9c9a5106f68a9d5089d3382be4eb7c653cd3766ee11a27d8309f54e2",
+    "checkpoint": "hierarchical_async_seed20\\final.pt",
+    "checkpoint_sha256": "93358cebc59ac79fb183f3274ff74950abc6c4446cffcc7805a6f9f27d195e3c",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 4.057290655762439,
+      "r2_author_corr_squared": 0.8076832302534617,
+      "pearson_corr": 0.8987119840379685,
+      "r2_coefficient_of_determination": 0.80679444417824
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "centralized",
+    "seed": 30,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "9767e003c561315719e6792c5aec7e1e2c8558dbd7b09c9fac897a1a1845c01f",
+    "checkpoint": "centralized_seed30\\final.pt",
+    "checkpoint_sha256": "c48bc83d448cd39ac80e82bf486117438e70db83df6aa3483c732ea7cbaa679f",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 0.025400399492748967,
+      "r2_author_corr_squared": 0.9999925385392319,
+      "pearson_corr": 0.9999962692626567,
+      "r2_coefficient_of_determination": 0.9999924276886297
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "fedavg",
+    "seed": 30,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "9767e003c561315719e6792c5aec7e1e2c8558dbd7b09c9fac897a1a1845c01f",
+    "checkpoint": "fedavg_seed30\\final.pt",
+    "checkpoint_sha256": "786266ffa46281251a48d8ac79b78b8ec78e1f9ef76ebbc89d8274a90ad6b468",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 3.3438566298723686,
+      "r2_author_corr_squared": 0.8691346721608035,
+      "pearson_corr": 0.9322739254965804,
+      "r2_coefficient_of_determination": 0.868767118046038
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  },
+  {
+    "method": "hierarchical_async",
+    "seed": 30,
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+    "initial_sha256": "9767e003c561315719e6792c5aec7e1e2c8558dbd7b09c9fac897a1a1845c01f",
+    "checkpoint": "hierarchical_async_seed30\\final.pt",
+    "checkpoint_sha256": "c6f0c155a63f19d19b3aa5e74cbc80a29c237b185acae393b7926cf95a225f50",
+    "processed_examples": 26640,
+    "training_metrics": {
+      "n": 222,
+      "rmse": 3.917106727251238,
+      "r2_author_corr_squared": 0.8202356421849517,
+      "pearson_corr": 0.905668616098047,
+      "r2_coefficient_of_determination": 0.8199147352399638
+    },
+    "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+  }
+]

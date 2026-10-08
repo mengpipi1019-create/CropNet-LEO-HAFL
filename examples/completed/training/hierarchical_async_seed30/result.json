@@ -1,0 +1,18 @@
+{
+  "method": "hierarchical_async",
+  "seed": 30,
+  "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+  "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+  "initial_sha256": "9767e003c561315719e6792c5aec7e1e2c8558dbd7b09c9fac897a1a1845c01f",
+  "checkpoint": "hierarchical_async_seed30\\final.pt",
+  "checkpoint_sha256": "c6f0c155a63f19d19b3aa5e74cbc80a29c237b185acae393b7926cf95a225f50",
+  "processed_examples": 26640,
+  "training_metrics": {
+    "n": 222,
+    "rmse": 3.917106727251238,
+    "r2_author_corr_squared": 0.8202356421849517,
+    "pearson_corr": 0.905668616098047,
+    "r2_coefficient_of_determination": 0.8199147352399638
+  },
+  "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+}

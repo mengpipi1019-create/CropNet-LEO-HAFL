@@ -1,0 +1,1797 @@
+{
+  "repository": "fudong03/Tiny-CropNet",
+  "revision": "07260d9d23d7093abd89cb5a78f8d82a439c8816",
+  "include_evaluation": true,
+  "total_bytes": 61230841748,
+  "files": [
+    {
+      "type": "file",
+      "oid": "87df7ca6fddab6e4e30aa68560cfd833154eb8a3",
+      "size": 3460952616,
+      "lfs": {
+        "oid": "2a8a46c50c0e28d28665c00743cce2d4fcaa614ae736c1b801b62d8224b8b8ba",
+        "size": 3460952616,
+        "pointerSize": 135
+      },
+      "xetHash": "aa7a23ecb5bb43ac581bf3e2ef6e3a98f0eaf8d08fe7525194b2f9603e2ad36a",
+      "path": "Sentinel-2 Imagery/data/2021/IA/Agriculture_19_IA_2021-04-01_2021-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "2c6a9128cd7b78d370c718476b0d67ecf2573f54",
+      "size": 3460952616,
+      "lfs": {
+        "oid": "e6f22534488c90f6dd5cf7e7a003bb9217069a0331e54e3fccaf8c12efb8218a",
+        "size": 3460952616,
+        "pointerSize": 135
+      },
+      "xetHash": "87659eed1e3dc5edb4c9cc3c2d259adec7bdc2a30de073c7f695a7b43ccec936",
+      "path": "Sentinel-2 Imagery/data/2021/IA/Agriculture_19_IA_2021-07-01_2021-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "75257d8160b1c594504934450f5e461b5f5e6bd0",
+      "size": 3968092240,
+      "lfs": {
+        "oid": "772a62d283e7c9267257ad2f4d8a529d3f16f58a55af8c293243d3ef6b1e2cf6",
+        "size": 3968092240,
+        "pointerSize": 135
+      },
+      "xetHash": "e98f1223e5a8f3a784e3c12e4fb8ac58db18eea4bfe3c8fc2315da940f7c40fe",
+      "path": "Sentinel-2 Imagery/data/2021/IL/Agriculture_17_IL_2021-04-01_2021-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "ab664a080861a0e76ccc29a528be43deb0e939dd",
+      "size": 3968092240,
+      "lfs": {
+        "oid": "682895a57f5c2b72fb60bc43d21e65f4c408d98a3e087ba734163554aff47979",
+        "size": 3968092240,
+        "pointerSize": 135
+      },
+      "xetHash": "6db34d2a9c7bfa7b53462ed4102b1172e7fc33d3a6fa5d9564d7b41d09a29f35",
+      "path": "Sentinel-2 Imagery/data/2021/IL/Agriculture_17_IL_2021-07-01_2021-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "41d418e3d922e2bddd0e364af5fd8334fbcbd767",
+      "size": 4242259840,
+      "lfs": {
+        "oid": "6bd187cabbc7d84164ec150502a03fee665a586e1218b0bdf45af487614a8b15",
+        "size": 4242259840,
+        "pointerSize": 135
+      },
+      "xetHash": "c045954a90c2f01fcb239208d9c24b3aed175b549c68c463c921d1b8ec84d306",
+      "path": "Sentinel-2 Imagery/data/2021/LA/Agriculture_22_LA_2021-04-01_2021-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "81fcfa07b02f9d5074f30e2d66f4501fa96d1ad4",
+      "size": 4242259840,
+      "lfs": {
+        "oid": "94b3a6ac6f3bb1fbdfdbb395a6439179f156087fb461201113cb7a1d7fd39c79",
+        "size": 4242259840,
+        "pointerSize": 135
+      },
+      "xetHash": "dd75c30a6cac453c8b5c2c5428f040ef61f6b94d890265df58153fda2c8ea31b",
+      "path": "Sentinel-2 Imagery/data/2021/LA/Agriculture_22_LA_2021-07-01_2021-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "cf956d7c8cf0661d429d7719afd57ef7abe5b2b3",
+      "size": 3162814056,
+      "lfs": {
+        "oid": "a93380b4903b4284514e3446c3d60f9f2357c8771df3844c6529b216a3f1e8cb",
+        "size": 3162814056,
+        "pointerSize": 135
+      },
+      "xetHash": "2956ae3e441089b787c08d5a2662fcb5aa7ba47622fc778a6bc9ddf3d2d5bf50",
+      "path": "Sentinel-2 Imagery/data/2021/MS/Agriculture_28_MS_2021-04-01_2021-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "d95360e1280d9fb998b7efa38618820a5db77a2a",
+      "size": 3162814056,
+      "lfs": {
+        "oid": "80860cfb5bb411c4472f9b4dd7314531f688856cc1b1d39e7707c1cb90a6766f",
+        "size": 3162814056,
+        "pointerSize": 135
+      },
+      "xetHash": "f9b87add197c7842e00b1fd90f5e936df80908cf71c15c12226ebfc731b72397",
+      "path": "Sentinel-2 Imagery/data/2021/MS/Agriculture_28_MS_2021-07-01_2021-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "653472d0aa626eb0b085a290bbfb285ec71cc827",
+      "size": 3460952616,
+      "lfs": {
+        "oid": "b1ca96a487c9a003eca937860da36640a0f8a48a2bc54a65dccc12bc3daf9077",
+        "size": 3460952616,
+        "pointerSize": 135
+      },
+      "xetHash": "8bc33bba54445e2d3a3abf8bfc26af46725e96e6279b0efb9510fc75d85d6d61",
+      "path": "Sentinel-2 Imagery/data/2022/IA/Agriculture_19_IA_2022-04-01_2022-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "a92a63d989f7e1e31800c03a1d596ae598b03622",
+      "size": 3460952616,
+      "lfs": {
+        "oid": "d77685e8d176e8fea0e886ddcf7ca0107ed28413079c13e122eb39b5c36b8246",
+        "size": 3460952616,
+        "pointerSize": 135
+      },
+      "xetHash": "d24cf55fb3a7128e888211c8a3fac9f66f3dc2eefd827153a5f8c6aa35cc1b74",
+      "path": "Sentinel-2 Imagery/data/2022/IA/Agriculture_19_IA_2022-07-01_2022-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "487dbaad4b6f2967bf85d00fef9d26a73df74521",
+      "size": 3968092240,
+      "lfs": {
+        "oid": "80ef14192c56dd361ad46879f901faed526e2b6323e0c66723381fabebf66d8b",
+        "size": 3968092240,
+        "pointerSize": 135
+      },
+      "xetHash": "2c4d6f2c180e27aba89e319bcf61211b2bd0b74b01c1da6880be5a16b52ad544",
+      "path": "Sentinel-2 Imagery/data/2022/IL/Agriculture_17_IL_2022-04-01_2022-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "3d4e2df213a4e6f969eb48884aa751acf35a1f20",
+      "size": 3968092240,
+      "lfs": {
+        "oid": "f99a668801451d04f3f1522d04ad1c8e8afd97f3e651fd8456ef17c109f65b8e",
+        "size": 3968092240,
+        "pointerSize": 135
+      },
+      "xetHash": "7a735ad4b7b7815174f6906e8e25937715eb1a0e0879eb01a64217bd7ce66d87",
+      "path": "Sentinel-2 Imagery/data/2022/IL/Agriculture_17_IL_2022-07-01_2022-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "09898ca628aec058b0eac1e439adb37c8aaf54b5",
+      "size": 4242259840,
+      "lfs": {
+        "oid": "bd65537477616ce577e5b4ebbe3927f88c5d39d594b8c68f9fdd9192079d1385",
+        "size": 4242259840,
+        "pointerSize": 135
+      },
+      "xetHash": "065453bd83bb56c5967acd1e15e97175d44f1c7537c08af2787a48decd4fe8c5",
+      "path": "Sentinel-2 Imagery/data/2022/LA/Agriculture_22_LA_2022-04-01_2022-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "c76a7e927d1d29454b108e9b33092523dd1f4990",
+      "size": 4242259840,
+      "lfs": {
+        "oid": "469b3ddb737769d747265fb237efaf896e5cbccf7701c98881155d4d9ece8728",
+        "size": 4242259840,
+        "pointerSize": 135
+      },
+      "xetHash": "75a9d89c89d853e43408bca27c98e9cc58e2beef1bd466c60bdfbf5ca7ca382a",
+      "path": "Sentinel-2 Imagery/data/2022/LA/Agriculture_22_LA_2022-07-01_2022-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "c28d59dd46f648a0af05094cf0ac6648a9ac7476",
+      "size": 3162814056,
+      "lfs": {
+        "oid": "ca9d23f0d4b9c72eadda1b8d84ee113dadf5ef9814f64e63f2f0f199622d1166",
+        "size": 3162814056,
+        "pointerSize": 135
+      },
+      "xetHash": "f1b0c2255c8dba068bc51501ca67285b69fa864e9a8014fb49838dac37de19ef",
+      "path": "Sentinel-2 Imagery/data/2022/MS/Agriculture_28_MS_2022-04-01_2022-06-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "f1bad5d27830bae8b366af0c275762dc649d3423",
+      "size": 3162814056,
+      "lfs": {
+        "oid": "bebf7b38b9cc18dc374778e36bbea32125b684e8f9c471b524caa75bb76b8c5b",
+        "size": 3162814056,
+        "pointerSize": 135
+      },
+      "xetHash": "7a8b086278d4fec98d5c93a0e69c8a1eaf91cfb46c71d31f812ef987a2907e16",
+      "path": "Sentinel-2 Imagery/data/2022/MS/Agriculture_28_MS_2022-07-01_2022-09-30.h5"
+    },
+    {
+      "type": "file",
+      "oid": "e3175e228e5bbdcdac7edd03ada88609f9ded959",
+      "size": 122351,
+      "path": "USDA Crop Dataset/data/Soybean/2021/USDA_Soybean_County_2021.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f16b4d0a9f4ae0fb339e82d5228639a2cf0b0f98",
+      "size": 126293,
+      "path": "USDA Crop Dataset/data/Soybean/2022/USDA_Soybean_County_2022.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a02b526253f94ef24c30275e51d857a03216450a",
+      "size": 6552265,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "eeda6c3e0de0a936eb4d062aa4b403e502de6f23",
+      "size": 5910184,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "45ff30c14cb4b971557d4ccf51040f97412006b8",
+      "size": 6579531,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "36fd2d22c41f1769a17decfbaf70f31bdf09904b",
+      "size": 6356574,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "776dd4b4bc75e55553eb4f0e0d2b8d795756edae",
+      "size": 6564246,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9bc1a7cd0a09aeea25e2eefaba25ac7246575372",
+      "size": 6326579,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "df9128321ba485857c20b26b50e514fe97859d0a",
+      "size": 6543144,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c6a9f46f60c75ac85f98fbac561c33d1b27838cb",
+      "size": 6557259,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d076a400aeefe89162bda1e0a10837b6a4ccfd92",
+      "size": 6325550,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "610c9c4df19ef0f8ad6dddd187c7f0672139b726",
+      "size": 6595453,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4fb6d3a1e211793b0830393fc6b6a67f036ede15",
+      "size": 6367390,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ec8c97a8f3eee743adfe17c5633bfc28b550a155",
+      "size": 6587721,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IA/HRRR_19_IA_2017-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "49fe2b8eee7d7461b538b78b97092ac22c04f1c2",
+      "size": 7791175,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4def3c4f1e7a71652105eb21a8c97c642624042f",
+      "size": 7027585,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f47188f98bcd0fcfa4f8d69641c4bb521918eff3",
+      "size": 7812561,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "30503350db54f6afbd3e2fa5f35bd23ceca21d24",
+      "size": 7560082,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "cf4cf7b30497b70064ed1998f4fe4749927e2845",
+      "size": 7807142,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d41b192181abeefb4a2c39e88e3871e11eac9d04",
+      "size": 7525427,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d78a187911eba5bffee252479bf645f0957810c9",
+      "size": 7793275,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "2f621d720c9530ed4e35d2fb13e607663e55ca2f",
+      "size": 7790255,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "eb63fe50b3892bc44baca47ef9ca24c000dbd8ff",
+      "size": 7527624,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b7a62ee1d6d93568db2f52c56e4e7db7f38a8dc5",
+      "size": 7826753,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "584d3bf71c42e1fa112b9872711ec9a52ba4b163",
+      "size": 7571824,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f8039f26ee98b43a99a3aee7be2b8dafb477358e",
+      "size": 7827800,
+      "path": "WRF-HRRR Computed Dataset/data/2017/IL/HRRR_17_IL_2017-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ab780447ff5b1e092c7de6d3e06cd53a9bf57125",
+      "size": 8549220,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1eca6e9fe973afbab9ba5dd95226eaa412734269",
+      "size": 7721794,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "cdced378638331c5c65c7111b215fe9d6a4074a6",
+      "size": 8564447,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6ec83c91f0fe6487c37e76dc9e33f38a73434533",
+      "size": 8274898,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6f725f30b689acf30bf1ca93a4068c7f199a1578",
+      "size": 8544538,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4cc0365c7c2c8427641c3f5232a3a72c53d85602",
+      "size": 8298894,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "acddd2c06999dd281b18d315d5ca844d2f99e2a2",
+      "size": 8529995,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "11ee2fbd1fc7607ce623f9393115af8d7d75e59a",
+      "size": 8560725,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "2db46803129e15b10e1afca46b8ad2e6ac4dfa70",
+      "size": 8259025,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f5e41f5bacef3f694dd01c825301a4270f703e8e",
+      "size": 8590145,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9ec23763f91f6af3c20ecd77381fc383809c7618",
+      "size": 8306599,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "474975145d70d39ac9b0c8d16ee8f510cb8178f5",
+      "size": 8596580,
+      "path": "WRF-HRRR Computed Dataset/data/2017/LA/HRRR_22_LA_2017-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ee06a05b6eafde696a74e79680bb65df49ac0805",
+      "size": 6311770,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9dabe2eb7735850d434ee3236f1b3e4408b42c63",
+      "size": 5701398,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3743cba7dc9aeb92cf1d43d532c429a18a405bba",
+      "size": 6322477,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8ef8d8f2fc84eeb063167164424443381b7df7e3",
+      "size": 6111551,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8515522918c0de5fa9a9abacb87844143c1e3612",
+      "size": 6303297,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "7b0c528240d17a4b3a7436e1b2c8e12cbce559e5",
+      "size": 6126687,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1f9200c230b04ba3398e74922381ec2a522bc4b1",
+      "size": 6300798,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b72388bbe28e651e83564b7fa8d75e5e8c90cc71",
+      "size": 6318338,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c24075e18f9aa8ae3bdf62369c26f32f59e64f61",
+      "size": 6103951,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3f0a01c42cc938f3b215354cc5ed337dca4b5b5f",
+      "size": 6339728,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b46990551736eb68d85fc595d01d99735c5a4073",
+      "size": 6131020,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0d6b675fa0323105ccb722c90bf8fd938e79e41a",
+      "size": 6340867,
+      "path": "WRF-HRRR Computed Dataset/data/2017/MS/HRRR_28_MS_2017-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c83fff9edb5cc8a4cf6b0ab003e9c62daece4a36",
+      "size": 6554123,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8b38363f9b63194bf7c6d3794ffab7ee74c7a9b0",
+      "size": 5924976,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c3fa82738bffa8f15d23aff1caea573cf7da22ce",
+      "size": 6568964,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1241fef88edf8f053bf2bace78f5cd13cd5ed1f1",
+      "size": 6360581,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "91e6a5a3642c4043f1b40c91ad978c935222d243",
+      "size": 6557492,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "24ad52f18f5653a7341300c052d9e8929c6b15ad",
+      "size": 6347902,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "58e7d9bb4fdb321047d394362114d8e0fde4b660",
+      "size": 6532234,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ce408e7aa27be1ab6dad6b48262ade3090cd37f7",
+      "size": 6542719,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8c5ad8a917b238d198abf950ec4483841e991c6b",
+      "size": 6328218,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ab65ef8ca7afff46af445937b23a26f313aa2dd4",
+      "size": 6581707,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e21bcc2767cc485620489605078ad9b2c77a2f31",
+      "size": 6376073,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e12c78971ac6832eef927f963557cbe6e77b72e1",
+      "size": 6580957,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IA/HRRR_19_IA_2018-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8735f0e38d16d71b626e0fbc3fb5d8dc04754bb7",
+      "size": 7789129,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "77f0d0c7b421be499fd7bcacea28f1e66d9a731f",
+      "size": 7042974,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "095fbdededd5a96765e662367b66766c5497fc2e",
+      "size": 7804454,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ee2cb0a54a9356e1f2a6b1c8f266b857fcde3587",
+      "size": 7559840,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "cb156d94b34b37e53bb9d16dbc6d60aa032bd089",
+      "size": 7801424,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c6c859ec61063261a94cff104d2ee4e52904b024",
+      "size": 7548638,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3f02046fef1b4d250587648c9e257114c6d1c938",
+      "size": 7789375,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "40bfa2103afcf41dd6eb2029735c4bd00cae7a00",
+      "size": 7772240,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f88a7d7b3602305ddf52ac1daaaeb21c08b4748d",
+      "size": 7528946,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "00b373cb01b7772776506758b0be7af07eee1255",
+      "size": 7830090,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b305c832a69e978c96c6022a07849ed509dd87f4",
+      "size": 7595067,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "bd9b91d7630e8cb8f0ff6ddb0bc51a10986cc84f",
+      "size": 7830069,
+      "path": "WRF-HRRR Computed Dataset/data/2018/IL/HRRR_17_IL_2018-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "230ecae4836494279d0f8892f3aac53c38dfc752",
+      "size": 8547787,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4d34a38905f0686fba7c22e96e07c969e9440fde",
+      "size": 7741953,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "5231647af7c0f743731a2e67fd32ec34960ac546",
+      "size": 8534551,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f0b93e2894becf2796de9a4530c7209808fcaa3b",
+      "size": 8265416,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "516c9459744d5ede11057877f4b9dc0a50f98f3c",
+      "size": 8528191,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8e01ed335f1b2a17abd101e8f637163f76e737b0",
+      "size": 8249183,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6af37483bbce063aaf28eeb48a3598d3ca52949c",
+      "size": 8518712,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0b7e8427abd81df5645187d3c1c547786db43d80",
+      "size": 8516547,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d2ddbb90a393f1f5cbf0f132870cf8c8d7560ace",
+      "size": 8271103,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "5bfcd13612c4052f0de2b12b3fa7b69a308eb701",
+      "size": 8596368,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d9fcaaf57117cc1ed9dec6076b82cc8ee7da7c4b",
+      "size": 8317860,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9b3ef0502e8ce17e1fbdc180e31e8dfd9aee0613",
+      "size": 8591951,
+      "path": "WRF-HRRR Computed Dataset/data/2018/LA/HRRR_22_LA_2018-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b9bbe0439bb5fbbe86f21116c676e92f60744af0",
+      "size": 6307068,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9c9604a5322ee4831836d2ad01803bf8af7ea3ee",
+      "size": 5718468,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "2595558bbaad7fea74f88c087cb65f92fd75e9cb",
+      "size": 6306001,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ae1c4550f53f256807140bd249e167f7224f3db0",
+      "size": 6105720,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6eadd6ad6eca5f242cee18c09e24e4df1dfc1033",
+      "size": 6305756,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6d4a03ccbcbc062d715f4efd9e613bfad5496e28",
+      "size": 6097186,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "701cc9df5d8056dedc18533dfb5049f704dab9b0",
+      "size": 6305274,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "bf8793c6302a251d418050ceb8ead804980a0b71",
+      "size": 6290915,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0e7f79aab70efb1e024aca0bd43f89ca00c70011",
+      "size": 6107948,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6b48ff68a73b42ac236e4be1297d1eb966953ff7",
+      "size": 6334369,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "383e6272d0b260a5e9dddfbcc1df57e3c1d719aa",
+      "size": 6142652,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "94da706260b6b91393acbd287503a3663f80a510",
+      "size": 6348586,
+      "path": "WRF-HRRR Computed Dataset/data/2018/MS/HRRR_28_MS_2018-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "46cc72abbc6680674901e18b06255b26b082e42b",
+      "size": 6563641,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "7182b3a1b99eddea23360a12e848b516ceb11990",
+      "size": 5947901,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "254001c64020dcb27bb2fbd49873e245a6a5bc74",
+      "size": 6561392,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "418d2f060148a59bcc6f39d2d353a18490bf31b4",
+      "size": 6353328,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "2b5a3648597a4ab6fa20b1c2c50756efa205b015",
+      "size": 6568610,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0d270b2fb1c22adbdf7016f5e7bb9a77c6e1600e",
+      "size": 6337633,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f70f0899a9304e156791ddb8b9442112c143d962",
+      "size": 6524828,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "bb1f47367b28ed1a690c36e2a59e6b7b4f1487d6",
+      "size": 6524086,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9d1455f25c2f9faf25fdd219d5c2fb5deb626b6e",
+      "size": 6332953,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3d20a057138f0b1098b4f4ac6b97cbf04e526ae8",
+      "size": 6584096,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "bae883db3b21b524ba052b548ce009b3e4d13d77",
+      "size": 6370990,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ab4db9f0164b6ea88607ffd0f13f664eff8f7dd4",
+      "size": 6568386,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IA/HRRR_19_IA_2019-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "15216b0ee90f24e24bedb0a537f45c714ed4c37e",
+      "size": 7807780,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b2160ce5332201bcc00be94bb486cc2553d02a14",
+      "size": 7062506,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "afd2238b447347e96809aae205e3c7c5ec7f0bf5",
+      "size": 7802638,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "79fc5a53298169d08831f1fe63af139e90c802cb",
+      "size": 7557746,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "326caedb33687530b9987d0a3a70f02b42f6bc06",
+      "size": 7806938,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "858e9a80600e1ba54099898d85a7b90748dd1ab2",
+      "size": 7545938,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e3b0008dc8de64649370da06529426c0e8739249",
+      "size": 7764062,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8f87e5f91d2cec7897a10ae8f923e4d92df0451d",
+      "size": 7767097,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e3e94fa8a5d5888146c16e5ced00f0a5bd98530e",
+      "size": 7523205,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0029ef74c85af021c5cafef1a5f30f01b5da2dd7",
+      "size": 7826688,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "290f5fa86571515069a26d6e70917b2bc89da10d",
+      "size": 7568753,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b0a82b86347bdf23110cd15939dc3f5b3fae7787",
+      "size": 7811600,
+      "path": "WRF-HRRR Computed Dataset/data/2019/IL/HRRR_17_IL_2019-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8ab0f299907b0ff7b2905022dca21ce2b4ac3a3b",
+      "size": 8542864,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "19e7e4af50ac240a4d6687085af7491e9caef052",
+      "size": 7745277,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9943d9f55b4a674be36f5415dcadeec1c64e11c3",
+      "size": 8553036,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a6bc3e4085bb596355258562c5c62573ddb6384e",
+      "size": 8266805,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3eebc6053e73c08108fcefe0b3458370e4f6ecff",
+      "size": 8540298,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "203d47963e8dd7f0a1b962b3bf87701ab4415e77",
+      "size": 8254154,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3881d4582e30bd8a5c0c03ffec4ad72d765f2614",
+      "size": 8523223,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c5e7630fb63e3ef20a2ea5603cb263de8162393e",
+      "size": 8501450,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c14afbd7f2974e92b6da2d7dc116a11ad2523825",
+      "size": 8238463,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d6a033e83b6f87a3b0f414b4cb30c04a9ccf2345",
+      "size": 8603248,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "62867ec0f389bb5cc3528300cf598a5fb8968798",
+      "size": 8318106,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c09eeb4c25a46245e96c5527d4baef94e10476f3",
+      "size": 8594399,
+      "path": "WRF-HRRR Computed Dataset/data/2019/LA/HRRR_22_LA_2019-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0b46444d73ba92881be647053ca204ada9fd8d0b",
+      "size": 6304582,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "390133b81f37669a8c0d019ccff3c9643539b42a",
+      "size": 5715719,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ee48956b4b88b498e0e84b301cc333a545fdc213",
+      "size": 6314258,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6241e55325c7930f05bf4bce1a4784bb2c403f18",
+      "size": 6099673,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "982ebe7f7ca371d2158ea45da9f5930618cad9fb",
+      "size": 6292440,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "160376485e43245f2ba027e3063a832ff1831dce",
+      "size": 6095542,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "38b966ccbfe63644bfe5307535de5a245bee03aa",
+      "size": 6294707,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "16bd97a8249de2c058d0aa0b97d16f7d50c0bd07",
+      "size": 6292191,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b83224f8544b99e44a5a5e7ebfe5e81990e82505",
+      "size": 6079824,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "62f4da0c530a85ea30efc05e65c678b0bba3e332",
+      "size": 6356131,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d56f879da38da8e3ba3fa739dc93df145b7268ae",
+      "size": 6137643,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "370a4fd3f78b50a9cafb1ab8ae313a0675506577",
+      "size": 6344366,
+      "path": "WRF-HRRR Computed Dataset/data/2019/MS/HRRR_28_MS_2019-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f18ae42ff2e2fdee67ef1bfeb61718383f05f4e0",
+      "size": 6560139,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9e5448d3b969f7d9d930b7b4f951b650d0183304",
+      "size": 6123083,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "71363ec2dd7196a29117408ca066477b73a7e9ac",
+      "size": 6565108,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "af1db62b323a25baa2fc7f9b4978b0b7f431f19f",
+      "size": 6348350,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f9158b213c20424e3fa64272cb1cfb707162747e",
+      "size": 6562894,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f1529325c6d528109c04deb2f518ede214022c85",
+      "size": 6331246,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "740792a10e5166c011f3192e87bf4742b6e10d3c",
+      "size": 6527836,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a5112a36206e2995529a74f0db6ecf97a4ea978c",
+      "size": 6518365,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b4eb5c745aadb2815629e6ecaeb62cb75ac731cb",
+      "size": 6316023,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9c51e1253fe37ffb965d2f9edc48b5a3b3b9cdf3",
+      "size": 6577967,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9bc695198ef1a6f33ccc0a2b53120ed3b8ea5967",
+      "size": 6350916,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d2cf236f6f5fb2512d50aab77975be2daca54a20",
+      "size": 6576612,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IA/HRRR_19_IA_2020-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "102ce8e7c4e76f9bc0e5eaaab0546bad1fbf5493",
+      "size": 7796643,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f29147e0e8a79e217719a486352400149c1a2f85",
+      "size": 7294087,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a560751ae1f6e217163dcbbc6224f5e5c4137d12",
+      "size": 7814760,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "dd8fad3bbd304a4e8e39a28f7e7c59c472bbb1ff",
+      "size": 7555983,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "29d06ec652082d21dc90820aa24fe5787f911e90",
+      "size": 7797632,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "bcd38e47c4ea20a2c4bd11f49c5da7cd9dfd82ed",
+      "size": 7521007,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ab7645769c3501fb26089f894837c788831d875d",
+      "size": 7777941,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a14090d1ec6696525b5bb8dd92a8beb92237a1ee",
+      "size": 7767993,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "064f5ed6884d8ae929f12bb172ca9f3115e5da9d",
+      "size": 7518340,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6b7ecdd817c92d67a3eca362d8ce04420425a3c9",
+      "size": 7825716,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "19a3a18d892f6b416393ee03750f80e57304950e",
+      "size": 7560327,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3d1c4640801d75fbc1ed3d870baddc402558c467",
+      "size": 7823850,
+      "path": "WRF-HRRR Computed Dataset/data/2020/IL/HRRR_17_IL_2020-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9868229d8bc00ae071bbea59dbd490be940ce0e0",
+      "size": 8561151,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4512ad95e05f47444571934d9d3950ab2fbfb992",
+      "size": 8002265,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1a7228752c3a595c009ca035bd2e7c05351879a4",
+      "size": 8567205,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "29a98f32bf8b8bd2e6c7ca63540fbc7960f5b492",
+      "size": 8282892,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a4b104d8909cd9c6ca4e4a6b419a72916c6c1348",
+      "size": 8536467,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3a76f1741cade26762ab6648132333965509512e",
+      "size": 8262727,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0dbe52a1c6ffa7782eef625316db2c909c57a958",
+      "size": 8509844,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f95bd01575030c624f7ae05973e13883901c52b8",
+      "size": 8522221,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f9bd1ba091098ed51ad28511bd6f46acf18542c2",
+      "size": 8273080,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "751c81d4c93f1d6b957bf68d607c6b03bae58f12",
+      "size": 8600133,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3092e072f1604ea91a364afb8d812a9e2601fb32",
+      "size": 8316332,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "02dcd729aea478f879b6f0980c4d8baaae0a1601",
+      "size": 8580756,
+      "path": "WRF-HRRR Computed Dataset/data/2020/LA/HRRR_22_LA_2020-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0863fad9f0cdf83ddf1908efe1f39ddb8f61e50a",
+      "size": 6317154,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "351047b7a167275200816befba396b6f50ff4485",
+      "size": 5910672,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "53c679af1e172063d7830943584a5514dfd33e16",
+      "size": 6328883,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "fe87d2d9de591b48da9cfdfa84a3d4c196742be5",
+      "size": 6109736,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "2f34fc37c4391428f3139c4f883e5f7f7a966f4f",
+      "size": 6301958,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4f6c3ebeeb18294d829c72b969095d2e436d0f01",
+      "size": 6102186,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8fc1c830ffd726293fd9fbf018e94b401cfc7f2b",
+      "size": 6289925,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a7859f18b3a8faac12e3db94925a10d032a61764",
+      "size": 6301596,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "417c525f4a4ef7c60505f1d7a5135d6175c8df77",
+      "size": 6104245,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "994c7de3bbf3b71cd7efc01d3503993eca5e8dbc",
+      "size": 6345554,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "618c4e28c0f102061d2b95f15a13e371283b682b",
+      "size": 6136366,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3250e66fa0369a238f2182d821972d0f0dad1330",
+      "size": 6333556,
+      "path": "WRF-HRRR Computed Dataset/data/2020/MS/HRRR_28_MS_2020-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1d9365ddb2f43efb8dd729ecd36682cfd56c739b",
+      "size": 6554939,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e54ba0c2160ff69eaacf1a678ab684c3e812f4cc",
+      "size": 5926213,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "cf0122d6848c934bae2ff02f9e5407b4de40fad1",
+      "size": 6546677,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "144f20ec648639e214f1f976ad224bc8bc8dbae6",
+      "size": 6348445,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4118fc801e2150ea270bf10709cb24ba73f67cbe",
+      "size": 6585644,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e1aee7dd666811a66e337aaf26614b7d4354ec6c",
+      "size": 6314349,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "73491a2c194a2b0578f96d2ec207a23c341a135a",
+      "size": 6535756,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "764bed0679bb56ab005ef454e021c075726d9127",
+      "size": 6535522,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b8265763263c33b0496647e8ad59fe30f1fba14e",
+      "size": 6313377,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "51e2e272495fd6c22fa6137c60e090412f03ed3c",
+      "size": 6589873,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "df6da3462e9926df314db692e440686ed41ae691",
+      "size": 6355482,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "10f960adce56367b1a3e129673a9164cb66f141f",
+      "size": 6580264,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IA/HRRR_19_IA_2021-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f137aeaaa1a6f319b62a10a0aa859a2d0217a34d",
+      "size": 7785752,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "943d8e58d824ef8160a32e48d2ae34ee4be11076",
+      "size": 7056478,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f191da742f812f70cc3a5d72a9ce62aa45db7d63",
+      "size": 7800183,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "136143b0071e2b0feb41c7c5d4c80ceac8a80a14",
+      "size": 7554895,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "4ebd5e55fc993efb2ad757b0de546a05396bbad8",
+      "size": 7830992,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3387faef272b61a9126afb39859a88db7b487193",
+      "size": 7535318,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "fc69a2d5801a531279e35439c486bc8b3898e0e4",
+      "size": 7788471,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d5877a89685625b00030edb44d92363ec054898b",
+      "size": 7777968,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "150301f0f1e7cc08cb42f6b213a5e339c93f4f52",
+      "size": 7514113,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "561cc51edf33825ec3afa076c98ca697b732ea7e",
+      "size": 7845821,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "674d865c7394f289d9bbfdb74743534f1cb82f96",
+      "size": 7558785,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9bedfd77c22271f4b573d7ec3a65ef9f6dcd6d6c",
+      "size": 7829211,
+      "path": "WRF-HRRR Computed Dataset/data/2021/IL/HRRR_17_IL_2021-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f7e9c8e322d5a30e2a8124f3afface249494d15d",
+      "size": 8528626,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "37c376b1a353ab9aec350b8c72c0d9e77ee77779",
+      "size": 7732257,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "30395d6a7b4b0228d2bba42002f94c4642052718",
+      "size": 8552277,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "7853c8b8f8d163c4422c2fd78eb9bff31f3b5674",
+      "size": 8306138,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6512723a48f733daefb4703f96e7601179547a5d",
+      "size": 8589113,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "493f349f5df178152d4ae1b9e42ca83658e50be7",
+      "size": 8272004,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d53b23c4363cbfe65ee74ed3c3ad6f1bf34b742f",
+      "size": 8537946,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "98b62d1fbc1e8c55430832f97a0c73ce7db7c4d3",
+      "size": 8544687,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "db56776f780944843132798916b0bb9acbf5cc97",
+      "size": 8271051,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1737b41186ceefe22f2439f8d308e210491a3d61",
+      "size": 8576736,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "57fa8667dc271c0da34ca4c914418ca90547ec01",
+      "size": 8297603,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6b30b4d8395f9f94bbc2c36e50b6ac242fbb8295",
+      "size": 8579534,
+      "path": "WRF-HRRR Computed Dataset/data/2021/LA/HRRR_22_LA_2021-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "53d42c237051b6989fbacf7654bbafefd0cc8292",
+      "size": 6300273,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-01.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6844eb7cad19f8e6624a16de31eb14432c9844a2",
+      "size": 5705982,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-02.csv"
+    },
+    {
+      "type": "file",
+      "oid": "effa67cd71a2c970254ca6dc201c69c517261da4",
+      "size": 6316452,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-03.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d2124db8b9e4aac7c02658e8fbc41b5b3902af63",
+      "size": 6122318,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "5ac8fd0778b273b9dbcde0b0bbe9faaf0c15747a",
+      "size": 6333722,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ae6890a0d8918da79f269c62e34c4afcc2b1d5bc",
+      "size": 6107419,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3ac6aca4ce3ad07a6513d207e0a91826f14fb1a6",
+      "size": 6307505,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "0048e1786058aae55e85e14810f45a1f8df876e0",
+      "size": 6312997,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f24a4da0f4418a820e5fc7e0d460dee340d98c17",
+      "size": 6107228,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "9ddea694b2cc5858f0ad1bfbc7de6fbd997aeff0",
+      "size": 6337105,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-10.csv"
+    },
+    {
+      "type": "file",
+      "oid": "e761a3c8e9672ffd9263524af0b57df1dedde601",
+      "size": 6121830,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-11.csv"
+    },
+    {
+      "type": "file",
+      "oid": "024929a2c43c9cab7191c1fbe0737b34c0c45aae",
+      "size": 6336540,
+      "path": "WRF-HRRR Computed Dataset/data/2021/MS/HRRR_28_MS_2021-12.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d199677feaed646a8a5c61c1c633c5620685a9a1",
+      "size": 6353758,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IA/HRRR_19_IA_2022-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ba1247273f0a72b9394920702f33bc511363ee83",
+      "size": 6569824,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IA/HRRR_19_IA_2022-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "61bbf27b32ce8b741df395f5b1719d5b898ef616",
+      "size": 6325896,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IA/HRRR_19_IA_2022-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "cb83b4bb326c8f26891514acca0433a8c5340e0e",
+      "size": 6541360,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IA/HRRR_19_IA_2022-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "43235db801ea84d7eeead1cf9cc48b3a71542ab8",
+      "size": 6543636,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IA/HRRR_19_IA_2022-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "62d535836c94e29403c68abab3ef6d418680c3b8",
+      "size": 6319816,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IA/HRRR_19_IA_2022-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "6680e4f54fe71966c8875cd12a71b2b09bebbe3d",
+      "size": 7554475,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IL/HRRR_17_IL_2022-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "5b66fbc3b9e088a15310c65dd4bf1c5b734dc33d",
+      "size": 7805810,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IL/HRRR_17_IL_2022-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "186fb7e6f7ed3328376ea22d6f1fc6830536f51c",
+      "size": 7521464,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IL/HRRR_17_IL_2022-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "442c7b85d058467c887df5283f492c5dc02a8a95",
+      "size": 7785232,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IL/HRRR_17_IL_2022-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "052691deb721eca817aaf69a4ddd610064b08426",
+      "size": 7788265,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IL/HRRR_17_IL_2022-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "88c6ed8d4912b38309790bfcb0488a5694ec2785",
+      "size": 7529417,
+      "path": "WRF-HRRR Computed Dataset/data/2022/IL/HRRR_17_IL_2022-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "eeb9b433a030248a86d4f88a2b7379b4e155671e",
+      "size": 8273512,
+      "path": "WRF-HRRR Computed Dataset/data/2022/LA/HRRR_22_LA_2022-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "ee85067f477e96a392f4fe5eb12e8122b167dd03",
+      "size": 8519962,
+      "path": "WRF-HRRR Computed Dataset/data/2022/LA/HRRR_22_LA_2022-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "288b599326b5cea1d2250af35f179be0fb5133fd",
+      "size": 8248169,
+      "path": "WRF-HRRR Computed Dataset/data/2022/LA/HRRR_22_LA_2022-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8cc0bd1af45cbffd9899abe23ba40ceca1bb7a22",
+      "size": 8518669,
+      "path": "WRF-HRRR Computed Dataset/data/2022/LA/HRRR_22_LA_2022-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "941c94001ff505ad4a913ff57cf3d30a531ab71b",
+      "size": 8556436,
+      "path": "WRF-HRRR Computed Dataset/data/2022/LA/HRRR_22_LA_2022-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "c8a643faf642b9abb8fb58307c40c678b411f79b",
+      "size": 8258725,
+      "path": "WRF-HRRR Computed Dataset/data/2022/LA/HRRR_22_LA_2022-09.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a272a58d53e35d879371133972e3f78221c9558a",
+      "size": 6106814,
+      "path": "WRF-HRRR Computed Dataset/data/2022/MS/HRRR_28_MS_2022-04.csv"
+    },
+    {
+      "type": "file",
+      "oid": "f786d7a8d06b329d62b1857d62eb1ef88758e756",
+      "size": 6302137,
+      "path": "WRF-HRRR Computed Dataset/data/2022/MS/HRRR_28_MS_2022-05.csv"
+    },
+    {
+      "type": "file",
+      "oid": "53a3f783e979ad9a121558b839a6dacdc700f6ff",
+      "size": 6095118,
+      "path": "WRF-HRRR Computed Dataset/data/2022/MS/HRRR_28_MS_2022-06.csv"
+    },
+    {
+      "type": "file",
+      "oid": "8aa9c67dbfb39997d21cbdf8327729ec665fcdbf",
+      "size": 6291233,
+      "path": "WRF-HRRR Computed Dataset/data/2022/MS/HRRR_28_MS_2022-07.csv"
+    },
+    {
+      "type": "file",
+      "oid": "61042caa547abbb81ec4d4cebca4697b0a272ce4",
+      "size": 6314097,
+      "path": "WRF-HRRR Computed Dataset/data/2022/MS/HRRR_28_MS_2022-08.csv"
+    },
+    {
+      "type": "file",
+      "oid": "13f590fcb4298da89e3ec9f3d670c1daa6acb0ad",
+      "size": 6097586,
+      "path": "WRF-HRRR Computed Dataset/data/2022/MS/HRRR_28_MS_2022-09.csv"
+    }
+  ],
+  "contents_read": false
+}

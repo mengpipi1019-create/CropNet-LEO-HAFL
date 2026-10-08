@@ -1,0 +1,18 @@
+{
+  "method": "fedavg",
+  "seed": 10,
+  "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+  "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+  "initial_sha256": "899c0fc53df5eefe32a62ff7cfe1da648fba188a2274e39495f5894dc91d1490",
+  "checkpoint": "fedavg_seed10\\final.pt",
+  "checkpoint_sha256": "3324c05c12a29c1385e4059e69b0bc6d407a891471d7cbe7e9202ae40590d538",
+  "processed_examples": 26640,
+  "training_metrics": {
+    "n": 222,
+    "rmse": 3.4541367058677284,
+    "r2_author_corr_squared": 0.8606264206433608,
+    "pearson_corr": 0.9276995314450476,
+    "r2_coefficient_of_determination": 0.8599682833125413
+  },
+  "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+}

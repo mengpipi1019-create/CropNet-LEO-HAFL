@@ -1,0 +1,34 @@
+{
+  "method": "centralized",
+  "seed": 20,
+  "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+  "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+  "initial_sha256": "47875bab9c9a5106f68a9d5089d3382be4eb7c653cd3766ee11a27d8309f54e2",
+  "checkpoint": "centralized_seed20\\final.pt",
+  "checkpoint_sha256": "df353cf824bc32bedec73212a27957d80ae04f49e5a3db2ae5f672503c116919",
+  "processed_examples": 26640,
+  "training_metrics": {
+    "n": 222,
+    "rmse": 0.0509811820739383,
+    "r2_author_corr_squared": 0.9999724176169458,
+    "pearson_corr": 0.9999862087133731,
+    "r2_coefficient_of_determination": 0.9999694952709859
+  },
+  "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection",
+  "metrics": {
+    "n": 254,
+    "rmse": 6.773195642448113,
+    "r2_author_corr_squared": 0.644768315229682,
+    "pearson_corr": 0.8029746666176225,
+    "r2_coefficient_of_determination": 0.5379362920201562
+  },
+  "year": 2022,
+  "scope": "three-seed full Tiny CropNet soybean historical retest",
+  "evaluation_identity": {
+    "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+    "summary_sha256": "caff733686c86b61e57e9b6ad8d15ecfb53e10345a5b8378a722ba11aabb35ca",
+    "test_manifest_sha256": "ee74cf61733755bc8c980c8495a114c907d9612dc0b25a33226cf5f995025f2f",
+    "normalization_sha256": "62c8ec653efdfc425124d94e9b471ea1ef6223413c4aeb178257993d3c6fa9f8"
+  },
+  "prediction_sha256": "2787197f06c2d9159355cee463b7e85033474fcbaf7240036258997eaf077353"
+}

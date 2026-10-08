@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "synthetic interface check only; no crop-yield performance result",
+  "parameters": 41628412,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "output_shape": [
+    1,
+    2
+  ],
+  "all_used_gradients_finite": true,
+  "unused_parameter_names": [
+    "pvt_backbone.backbone.head.weight",
+    "pvt_backbone.backbone.head.bias"
+  ],
+  "singleton_chunk_max_output_difference": 3.4868717193603516e-06,
+  "max_parameter_update": 4.542991518974304e-05,
+  "initial_sha256": "899c0fc53df5eefe32a62ff7cfe1da648fba188a2274e39495f5894dc91d1490",
+  "final_sha256": "2f6fd59cef8dde96a60048a100be383ce78e93758c2d87180d8c1f1a5d3e6a94",
+  "elapsed_seconds": 6.976300899987109
+}

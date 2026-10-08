@@ -1,0 +1,61 @@
+{
+  "experiment": "mmst_compare_balanced_v1",
+  "scope": "Three paired seeds (10/20/30), three methods, fixed final120 epochs; full Tiny CropNet soybean; balanced async gain from training-year diagnostic; historical2022 evaluation only after all nine models frozen",
+  "upstream_revision": "615666c8d9fcd704acb662c13065703cbf2eab70",
+  "dataset_repository": "fudong03/Tiny-CropNet",
+  "dataset_revision": "07260d9d23d7093abd89cb5a78f8d82a439c8816",
+  "train_year": 2021,
+  "evaluation_year": 2022,
+  "long_term_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seeds": [
+    10,
+    20,
+    30
+  ],
+  "epochs": 120,
+  "local_epochs": 1,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "warmup_epochs": 3,
+  "embed_dim": 512,
+  "grid_token_capacity": 64,
+  "image_chunk_size": 8,
+  "clients_per_state": 5,
+  "server_learning_rate": 1.0,
+  "staleness_power": 0,
+  "logical_ring_delays": [
+    1.0,
+    1.2,
+    1.4,
+    1.6
+  ],
+  "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection",
+  "initialization": "paired_random_initialization; no centralized warm start; no SSL pretraining",
+  "image_preprocessing": "uint8 cache; RGB /255 and fixed Normalize; center crop224; all grids",
+  "weather_preprocessing": "2021 training feature z-score; shared across methods",
+  "target": "training-standardized log production/log yield; inverse then exp for BU/ACRE",
+  "max_download_gib": 100,
+  "gradient_clip": 5.0,
+  "county_batch_size": 10,
+  "decay_after_epoch": 40,
+  "minimum_lr_ratio": 0.01,
+  "server_gain": 0.9066011235955057,
+  "max_ring_lead": 2,
+  "checkpoint_every_epochs": 1,
+  "local_state": "persistent_disk_backed_cpu_staging",
+  "input_mode": "unit_rgb_weather_z"
+}

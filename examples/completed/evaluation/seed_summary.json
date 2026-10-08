@@ -1,0 +1,83 @@
+{
+  "centralized": {
+    "rmse": {
+      "mean": 6.64168785048357,
+      "sample_sd": 0.38444735919295125,
+      "n": 3
+    },
+    "r2_author_corr_squared": {
+      "mean": 0.6523225342924371,
+      "sample_sd": 0.01875711563581191,
+      "n": 3
+    },
+    "pearson_corr": {
+      "mean": 0.80760960688877,
+      "sample_sd": 0.01157090014239225,
+      "n": 3
+    },
+    "r2_coefficient_of_determination": {
+      "mean": 0.5547124600928476,
+      "sample_sd": 0.050763489812086456,
+      "n": 3
+    },
+    "paired_rmse_gap_percent": {
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "n": 3
+    }
+  },
+  "fedavg": {
+    "rmse": {
+      "mean": 7.011339723640167,
+      "sample_sd": 0.03863517664049584,
+      "n": 3
+    },
+    "r2_author_corr_squared": {
+      "mean": 0.5491588338487743,
+      "sample_sd": 0.01111520890649534,
+      "n": 3
+    },
+    "pearson_corr": {
+      "mean": 0.741027204220026,
+      "sample_sd": 0.007501645282177291,
+      "n": 3
+    },
+    "r2_coefficient_of_determination": {
+      "mean": 0.5048629429780195,
+      "sample_sd": 0.005463546579473233,
+      "n": 3
+    },
+    "paired_rmse_gap_percent": {
+      "mean": 5.829534762181097,
+      "sample_sd": 6.849353050394525,
+      "n": 3
+    }
+  },
+  "hierarchical_async": {
+    "rmse": {
+      "mean": 7.342418699522109,
+      "sample_sd": 0.06829882047628452,
+      "n": 3
+    },
+    "r2_author_corr_squared": {
+      "mean": 0.49416707843906577,
+      "sample_sd": 0.027382569002358984,
+      "n": 3
+    },
+    "pearson_corr": {
+      "mean": 0.7027911787643532,
+      "sample_sd": 0.019428232938557197,
+      "n": 3
+    },
+    "r2_coefficient_of_determination": {
+      "mean": 0.4569773280799327,
+      "sample_sd": 0.01012111986245369,
+      "n": 3
+    },
+    "paired_rmse_gap_percent": {
+      "mean": 10.782378954709339,
+      "sample_sd": 6.0529770230840905,
+      "n": 3
+    }
+  }
+}

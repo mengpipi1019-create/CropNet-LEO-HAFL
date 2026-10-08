@@ -1,0 +1,18 @@
+{
+  "method": "centralized",
+  "seed": 20,
+  "config_sha256": "07639bf46da74d78442f5d2be79af2c9f100a99a1f8b4e36395991686d747c92",
+  "data_manifest_sha256": "bc21720a919228d9b91394cd9e2c21a77fd647c416fdbee70472e72b2976b535",
+  "initial_sha256": "47875bab9c9a5106f68a9d5089d3382be4eb7c653cd3766ee11a27d8309f54e2",
+  "checkpoint": "centralized_seed20\\final.pt",
+  "checkpoint_sha256": "df353cf824bc32bedec73212a27957d80ae04f49e5a3db2ae5f672503c116919",
+  "processed_examples": 26640,
+  "training_metrics": {
+    "n": 222,
+    "rmse": 0.0509811820739383,
+    "r2_author_corr_squared": 0.9999724176169458,
+    "pearson_corr": 0.9999862087133731,
+    "r2_coefficient_of_determination": 0.9999694952709859
+  },
+  "checkpoint_rule": "fixed_final_120_epochs; no early stopping or test selection"
+}
